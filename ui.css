@@ -1,0 +1,152 @@
+body{
+background-color: #f3f3f3;
+}
+
+.bars{
+    width: 40px;
+    height: 40px;
+    margin-top: 10px;
+}
+
+.log{
+    width: 200px;
+    height: 180px;
+    margin-top: 10px;
+    margin-left: 50px;
+}
+
+.bag{
+    width: 28px;
+    height: 28px;
+    margin-left: 50px;
+    background-color: #b6b5b5;
+    padding: 12px;
+    border-radius: 100%;
+    margin-top: 80px;
+}
+
+
+.topsec{
+    display: flex;
+   
+  
+}
+
+.home{
+    font-weight: bolder;
+    font-size: 25px;
+    font-family: tahoma;
+    margin-top: 20px;
+    margin-left: 50px;
+}
+ 
+.main{
+
+}
+
+input{
+    margin-top: 30px;
+    margin-left: 40px;
+    border: none;
+    padding: 25px 80px;
+    border-radius: 10px;
+}
+
+input::placeholder{
+    font-weight: bolder;
+    font-size: 14px;
+    font-family: tahoma;
+text-align: left;
+}
+
+.sear img{
+    width:30px;
+    height: 30px;
+    margin-top: 45px;
+    margin-left: -50px;
+    position: absolute;
+}
+
+
+
+.new{
+    background-color: white;
+    border-radius: 20px;
+width: 350px;
+margin-left: 25px;
+height: 100px;
+}
+
+.new img{
+    margin-top: -10px;
+    width: 130px;
+    
+}
+
+.new h5{
+    font-weight: bolder;
+    font-size: 20px;
+    font-family: tahoma;
+    margin-top: -90px;
+    margin-left: 160px;    
+}
+
+.np{
+    color: rgb(47, 182, 47);
+    margin-top: -15px;
+    position: absolute;
+    font-weight: bolder;
+    font-size: 20px;
+    font-family: tahoma;
+    margin-left: 180px;  
+}
+
+.container{
+    margin-top: 50px;
+    width: 98%;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    display: flex;
+    scroll-behavior: smooth;
+    -webkit-overflow-scrolling: touch;
+    padding: 5px;
+}
+
+.box{
+    flex: 0 0 150px;
+ 
+    height: 200px;
+   background: linear-gradient(35deg, white,rgb(250, 253, 253));
+    display: flex;
+    align-items: center;
+    font-size: 24px;
+    scroll-snap-align: center;
+    margin-left: 10px;
+    border-radius: 20px;
+}
+
+
+.box img{
+    width: 120px;
+    margin-top: -60px;
+    margin-left: 10px;
+}
+
+.name{
+    margin-left: -110px;
+    font-family: verdana;
+   font-weight: bolder;
+    margin-top: 90px;
+ 
+  font-size: 17px;
+}
+
+.price{
+    color: green;
+    margin-left: -90px;
+    font-family: verdana;
+    font-weight: bolder;
+     margin-top: 170px;
+   
+   font-size: 17px;
+}

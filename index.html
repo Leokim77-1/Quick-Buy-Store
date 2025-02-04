@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quick Buy Store</title>
+    <link rel="stylesheet" href="ui.css">
+    <script src="code.js"></script>
+</head>
+<body>
+
+    <div class="main">
+<div class="topsec">
+    <img src="menu.png" alt="" class="bars">
+    <img src="qlog1.png" alt="" class="log">
+    <img src="shopping-bag.png" alt="" class="bag">
+</div>
+
+<div class="home">
+    Home
+</div>
+
+<div class="sear">
+    <input type="text" placeholder="Search for product...." class="search">
+    <img src="search.png" alt="">
+</div>
+
+
+
+<div class="home">
+   <h5>New products</h5>
+</div>
+
+<div class="new">
+
+    <img src="pods.png" alt="">
+    <h5><a href="pods.html">Airpods Pro</a></h5>
+    <span class="np">110.00</span>
+
+</div>
+<div class="home">
+    <h5>Popular</h5>
+ </div>
+
+<div class="container">
+    <div class="box" id="pods"><img src="airpods-pro-color-500x500.jpg" alt=""><div class="name"><a href="pods.html">Airpods Pro</a> </div>
+<div class="price">110.00</div></div>
+
+<div class="box"><img src="powerand pods.png" alt=""><div class="name"><a href="powerpods.html">PowerBank...</a></div>
+<div class="price">150.00</div></div>
+
+
+
+<div class="box"><img src="toatbg1.png" alt=""><div class="name"><a href="toatwithozipmed.html">Toat bag..</a></div>
+<div class="price">60.00</div></div>
+
+   
+
+<div class="box"><img src="toatbg2.png" alt=""><div class="name"><a href="toatzipmed.html">Toat bag..</a></div>
+<div class="price">65.00</div></div>
+</div>
+
+</div>
+
+
+
+
+<div class="container">
+    <div class="box"><img src="toatbg3.png" alt=""><div class="name"><a href="toat3.html">Toat bag..</a></div>
+<div class="price">60.00</div></div>
+<div class="box"><img src="toat4.png" alt=""><div class="name"><a href="toat4small.html">Toat bag..</a></div>
+<div class="price">45.00</div></div>
+   
+<div class="box"><img src="toat5.png" alt=""><div class="name"><a href="toat5zip.html">Toat bag..</a></div>
+<div class="price">65.00</div></div>
+
+
+<div class="box"><img src="toat6.png" alt=""><div class="name"><a href="toat6.html">Toat bag..</a></div>
+<div class="price">60.00</div></div>
+
+<div class="box"><img src="toat7.png" alt=""><div class="name"><a href="toat7.html">Toat bag..</a></div>
+<div class="price">45.00</div></div>
+</div>
+
+</div>
+
+
+
+    </div>
+    <script>
+        const podsbox = document.getElementById('pods');
+
+podsbox.addEventListener('click', function(){
+    window.location.href = 'pods.html';
+})
+
+const input = document.querySelector('.search');
+const hold = document.querySelector('.sear')
+const inpl = input.value.toLowerCase();
+
+function lookup(){
+ 
+}
+
+
+
+const sug = document.createElement('div');
+sug.innerHTML= lookup();
+
+
+    </script>
+</body>
+</html>

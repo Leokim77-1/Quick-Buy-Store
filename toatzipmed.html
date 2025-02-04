@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Toat bag medium sized zip</title>
+    <link rel="stylesheet" href="buyp.css">
+</head>
+<body>
+    
+
+<div class="main">
+<div class="top">
+    <button><a href="index.html"> <img src="left.png" alt="" class="bimg"></a></button>
+    <button onclick="share()"><img src="shared.png" alt="" class="shareimg"></button>
+   
+</div>
+
+<div class="pimgar">
+    <img src="toatbg2.png" alt="" style=" width: 280px; margin-left: 50px;">
+</div>
+
+
+<div class="buysec">
+    <div class="pname">Toat bag zipped medium size.</div>
+    <div class="pcont">There are custom services too contact to try out.</div>
+    <div class="context">
+        Note : Extra fees will be charged for   deliveries <br>
+        outside KNUST (kumasi campus-Ayeduase),depending<br>
+        on the distance.
+    </div>
+
+    <div class="pnc">
+        <span>¢ 65.00</span>
+        <button onclick="diaNumber()"><img src="telephone.png" alt=""></button>
+        <button onclick="openWhatsApp()" style=" margin-left: 260px;"><img src="whatsapp.png" alt=""></button>
+        <button onclick="openSMS()" style=" margin-left: 330px;"><img src="chat.png" alt=""></button>
+
+    </div>
+</div>
+
+</div>
+
+
+<script>
+    var num = "+233243518936";
+    var shareLink = "https://leokim77-1.github.io/Quick-Buy-Store/toatzipmed.html";
+    var shareTitle = "Get Affordable products from our online Store";
+    var shareText = "Quick Buy Online Store";
+
+    var shareImage = "https://leokim77-1.github.io/Quick-Buy-Store/toatbg2.png"
+
+    function diaNumber(){
+       window.location.href = "tel:" + num;
+    }
+
+
+    function openWhatsApp(){
+       window.location.href = "https://wa.me/" + num.replace(/\D/g, '');
+    }
+
+    function openSMS(){
+       window.location.href = "sms:" + num;
+    }
+
+    function share() {
+        let url = "https://leokim77-1.github.io/Quick-Buy-Store/toatzipmed.html"; // Replace with your actual link
+
+        if (navigator.share) {
+            navigator.share({ url });
+        } else {
+            window.open("https://www.facebook.com/sharer/sharer.php?u=" + encodeURIComponent(url), "_blank");
+        }
+    }
+
+
+</script>
+
+</body>
+</html>
